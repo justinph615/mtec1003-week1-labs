@@ -18,6 +18,64 @@ Copy and paste the output of ls below.
 
 
 
+ $ dir
+3D\ Objects
+AndroidStudioProjects
+AppData
+Application\ Data
+Aptana\ Rubles
+BullseyeCoverageError.txt
+Contacts
+Cookies
+Creative\ Cloud\ Files
+Creative\ Cloud\ Files\ (archived)\ (1)
+Desktop
+Documents
+Downloads
+Favorites
+InstallAnywhere
+IntelGraphicsProfiles
+Justin.Philip1@mail.citytech.cuny.edu\ Creative\ Cloud\ Files
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+New\ Unity\ Project
+New\ Unity\ Project\ (1)
+OneDrive
+Pictures
+PowerDVD12.Patch.DVD121001-01.exe
+PrintHood
+Random\ Game
+Recent
+SampleScene
+Saved\ Games
+Searches
+SendTo
+SkyDrive
+Start\ Menu
+SyncFolder
+Templates
+Videos
+VirtualBox\ VMs
+desktop_shortcut.vbs
+justinph615@gmail.com\ Creative\ Cloud\ Files
+link.vbs
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+programs_shortcut.vbs
+samsung-sdk
+source
+untitled0_MAS.bak
+workspace
+xdm-main-reg-bak.reg
 
 
 
@@ -29,6 +87,10 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
+$ dir -l
+total 173427
+drwxr-xr-x 1 justinph615 197609         0 Jan 17 00:23 3D\ Objects
+drwxr-xr-x 1 justinph615 197609         0 Jul 12  2016 AndroidStudioProjects
 
 
 
@@ -42,6 +104,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+./                              CreativeCloud/                                                                                        Zoom/
+ ../                            
 
 
 
