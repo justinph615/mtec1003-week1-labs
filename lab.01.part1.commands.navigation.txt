@@ -119,7 +119,8 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+$ ls doesnotexist
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 
@@ -128,8 +129,7 @@ Copy and paste the output below.
 5.  What key do I press to go to the previous command?
 ----------
 
-
-
+The UP arrow on my keyboard
 
 
 
@@ -137,7 +137,7 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
-
+-l and -a
 
 
 
@@ -146,7 +146,7 @@ Copy and paste the output below.
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls (list all files)
 
 
 
@@ -156,7 +156,7 @@ Copy and paste the output below.
 ----------
 
 
-
+ls Doesnotexist
 
 
 
@@ -168,8 +168,8 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
-
+$ foo
+bash: foo: command not found
 
 
 
@@ -182,7 +182,8 @@ Copy and paste the output below.
 ----------
 
 
-
+$ foo
+bash: foo: command not found
 
 
 
@@ -193,6 +194,11 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
+
+command: ls
+flag: -a
+argument: Desktop
+prompt: $ 
 
 
 
