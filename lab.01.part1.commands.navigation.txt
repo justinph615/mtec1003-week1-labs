@@ -218,7 +218,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+mkdir
 
 
 
@@ -227,7 +227,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+cd ..
 
 
 
@@ -243,9 +243,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
-
-
+C:\Users\justinph615\Desktop\mtec1003>
 
 
 ==========
@@ -256,8 +254,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+       ..
+02/01/2021  04:56 PM    <DIR>          animals
+               0 File(s)              0 bytes
+               3 Dir(s)   4,695,109,632 bytes free
 
 
 
@@ -273,7 +273,8 @@ Copy and paste the output below.
 
 
 
-
+animals
+food
 
 
 ==========
@@ -286,7 +287,7 @@ Copy and paste the output below.
 ----------
 
 
-
+foo/bar/baz/qux
 
 
 
@@ -300,7 +301,7 @@ Copy and paste the output below.
 ----------
 
 
-
+mkdir -p foo/bar/baz/qux
 
 
 
