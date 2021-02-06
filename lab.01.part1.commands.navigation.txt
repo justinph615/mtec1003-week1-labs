@@ -227,7 +227,7 @@ mkdir
 ----------
 
 
-cd ..
+cd
 
 
 
@@ -256,8 +256,7 @@ Copy and paste the output below.
 ----------
        ..
 02/01/2021  04:56 PM    <DIR>          animals
-               0 File(s)              0 bytes
-               3 Dir(s)   4,695,109,632 bytes free
+             
 
 
 
@@ -280,28 +279,28 @@ food
 ==========
 17. Type:
 
-$ mkdir -p foo/bar/baz/qux
+$ mkdir foo\bar\baz\qux (-p just creates a folder titled "-p" for windows)
 $ ls
 
 Copy and paste the output below.
 ----------
 
 
-foo/bar/baz/qux
+animals	foo	food
 
 
 
 ==========
 18. Type:
 
-$ cd foo/bar/baz/qux
+$ cd foo\bar\baz\qux
 $ pwd
 
 Copy and paste the output below.
 ----------
 
 
-mkdir -p foo/bar/baz/qux
+C:\Users\justinph615\Desktop\mtec1003\foo\bar\baz\qux>
 
 
 
@@ -315,7 +314,7 @@ Copy and paste the output below.
 ----------
 
 
-
+C:\Users\justinph615\Desktop\mtec1003\foo\bar>
 
 
 
@@ -327,7 +326,8 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+C:\Users\justinph615\Desktop\mtec1003\foo\bar>cd -
+The system cannot find the path specified.
 
 
 
@@ -342,7 +342,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+C:\Users\justinph615>
 
 
 
@@ -357,7 +357,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
+02/05/2021  08:36 PM    <DIR>          ..
+02/01/2021  05:21 PM    <DIR>          foo
+02/01/2021  04:58 PM    <DIR>          food
 
 
 
@@ -371,7 +373,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+C:\Users\justinph615\Desktop\mtec1003>cd ~
+The system cannot find the path specified.
 
 
 
@@ -385,7 +388,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+C:\Users\justinph615>cd \Volumes
+The system cannot find the path specified.
 
 
 
@@ -399,7 +403,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+C:\Users\justinph615>cd /unknown_folder
+The system cannot find the path specified.
 
 
 
@@ -413,7 +418,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+C:\Users\justinph615\mtec1003>
 
 
 
@@ -426,18 +431,21 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
+C:\Users\justinph615\mtec1003>hostname
+justin
 
 
 
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
 
 
-
+C:\Users\justinph615\mtec1003>echo %cd%  (pwd for windows)
+C:\Users\justinph615\mtec1003
 
 
 ==========
@@ -466,7 +474,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+mkdir lemon\strawberry\orange\pineapple
 
 
 
@@ -476,7 +484,7 @@ Write the one command you used below:
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 
@@ -488,7 +496,8 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+02/05/2021  09:11 PM    <DIR>          aardvark
+02/05/2021  09:08 PM    <DIR>          lemon
 
 
 
