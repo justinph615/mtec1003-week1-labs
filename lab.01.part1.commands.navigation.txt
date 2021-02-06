@@ -495,9 +495,20 @@ mkdir aardvark
 
 What is the modified date of the aardvark directory?
 ----------
-
-02/05/2021  09:11 PM    <DIR>          aardvark
-02/05/2021  09:08 PM    <DIR>          lemon
+C:\Users\justinph615\Desktop\mtec1003>tree /f
+Folder PATH listing for volume Windows
+Volume serial number is AA5F-B804
+C:.
+├───foo
+│   └───bar
+│       └───baz
+│           └───qux
+├───food
+└───lemon
+    └───strawberry
+        └───orange
+            └───pineapple
+                └───aardvark
 
 
 
@@ -513,7 +524,7 @@ What command did you use?
 ----------
 
 
-
+mkdir foo\bar\baz 
 
 
 
@@ -523,7 +534,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo\bar\baz
 
 
 
@@ -535,7 +546,7 @@ What command did you use?
 ----------
 
 
-
+cd ..\..
 
 
 
@@ -543,7 +554,7 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 
 
@@ -551,7 +562,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 
@@ -562,7 +573,7 @@ What command did you use?
 ----------
 
 
-
+-a
 
 
 
@@ -571,7 +582,7 @@ What command did you use?
 ----------
 
 
-
+%homepath%
 
 
 
@@ -580,7 +591,7 @@ What command did you use?
 ----------
 
 
-
+the location
 
 
 
@@ -589,10 +600,12 @@ What command did you use?
 ----------
 
 
-
+The folder
 
 
 
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+C:\Users\justinph615\Downloads>
