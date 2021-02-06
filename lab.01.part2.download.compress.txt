@@ -130,7 +130,7 @@ $ echo *
 What happens?
 ----------
 
-
+*
 
 
 ==========
@@ -139,6 +139,7 @@ What happens?
 Write the command that you used below:
 ----------
 
+cls
 
 
 ==========
@@ -155,7 +156,9 @@ Now copy and paste the output below.
 ----------
 
 
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12898    0 12898    0     0  12898      0 --:--:-- --:--:-- --:--:-- 82152
 
 
 
@@ -166,6 +169,7 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
+C:\Users\justinph615\Desktop\mtec1003
 
 
 
@@ -177,7 +181,7 @@ Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+cd \
 
 ==========
 11. So... the lab materials are located at this url:
@@ -195,7 +199,10 @@ Finally, write the output of the command below.
 ----------
 
 
-
+C:\Users\justinph615\Desktop\mtec1003> curl http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip -O
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9115  100  9115    0     0   9115      0  0:00:01 --:--:--  0:00:01  141k
 
 
 
@@ -211,7 +218,15 @@ Copy and paste the output below.
 ----------
 
 
+ Directory of C:\Users\justinph615\Desktop\mtec1003
 
+02/06/2021  05:54 PM    <DIR>          .
+02/06/2021  05:54 PM    <DIR>          ..
+02/01/2021  05:21 PM    <DIR>          foo
+02/01/2021  04:58 PM    <DIR>          food
+02/05/2021  09:23 PM    <DIR>          lemon
+02/06/2021  05:50 PM             9,115 my-flashcards.zip
+02/06/2021  04:49 PM    <DIR>          stuff
 
 ==========
 13. Change into the "stuff" directory that you just created.
@@ -225,7 +240,11 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
+ Directory of C:\Users\justinph615\Desktop\mtec1003\stuff
 
+02/06/2021  05:55 PM    <DIR>          .
+02/06/2021  05:55 PM    <DIR>          ..
+02/06/2021  05:55 PM                 7 hello.txt
 
 ==========
 14. Go up one directory back into your home directory.
@@ -238,7 +257,8 @@ List the files in the directory you're currently in (which should be home).
 Copy and paste the output below.
 ----------
 
-
+a stuff
+a stuff/hello.txt
 
 
 ==========
@@ -250,7 +270,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
+a stuff
+a stuff/hello.txt
 
 
 
@@ -264,8 +285,7 @@ List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
 
-
-
+02/06/2021  05:57 PM               151 stuff.tar.gz
 
 
 ==========
@@ -275,3 +295,7 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+
+C:\Users\justinph615\Desktop\mtec1003>tar -xvf stuff.tar.gz
+x stuff/
+x stuff/hello.txt
